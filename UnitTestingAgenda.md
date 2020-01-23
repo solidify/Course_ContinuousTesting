@@ -76,3 +76,8 @@ If you have a serviceoriented system of some kind, you will need to test not onl
 
 Dependent upon your organisation, you may require a certain level of test reporting.  There are multiple ways to go about this, and we will look at some possibilities.  The build-in reporting in tools like Azure DevOps can be very useful, but there are also other tools than can be used to get a better view.
 
+### Optional Section C:  The structure of Visual Studio testing infrastructure  
+
+The optional section explains how the Visual Studio (including dotnet) test infrastructure is constructed, which components are involved and how they interact.  This also applies to Visual Studio Code and Jetbrains Rider IDE, and also when using the Resharper plugin.  It explains what components you should use, and which to avoid.  It also explains how you ensure your projects are properly set up for best use of the infrastructure.
+
+Visual Studio have real time test discovery and it has live unit testing, how does this affect the developer, and what should the developer be aware of.
