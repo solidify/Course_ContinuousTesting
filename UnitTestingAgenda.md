@@ -44,17 +44,25 @@ The tests will be added after the fact, and this is one case where a broader sco
 
 Data driven tests can be done both at the class level and higher levels.  We'll focus on the class level since the same principles and practices apply to higher levels.  Data driven tests can be very useful and can simplify existing tests, but it can also lead to over-testing.  We'll look at the different ways of doing this, and also how you can use test functionality to minimize the data you need to inject.
 
-### Section 4: Component and Integration testing
+### Section 4: Controlling testing using filters and runsettings
+
+The test process can be controlled using runsettings files.  Such files contains both generic options, and specific test framework options.  
+
+One important feature is the ability to control tests using filters.  These filters can be applied both in the call to the different testing tools, or as part of a runsettings file (with certain limitations).  Use of filters are a needed part of being able to set up CI/CD builds properly, but is also very useful for the code developer.
+
+The use of filters also goes down to the code itself, as the test code may need to be properly attributed.  We will look at the difference between convention and configuration in such cases. 
+
+### Section 5: Component and Integration testing
 
 We will look at how components can be isolated, so that we can more easily test them one by one. This is dependent upon your dependency tree, and also on how you have managed to implement Dependency Injection in your system.  
 
 Integration testing are done with multiple components, and often involve a data store. This causes more work to be done to set things up, and issues like test data maintenance comes up.  
 
-### Section 5: Test automation and end-to-end testing
+### Section 6: Test automation and end-to-end testing
 
 Testing at the API level is fine for some systems, but in some cases you will go all the way out to UI testing. There are frameworks for doing this kind of testing, and also test languages specifically for this purposes.  We will look at these, and see how and when they can be used, and what consequences they will have.
 
-### Section 6: Testing during CI/CD
+### Section 7: Testing during CI/CD
 
 We'll see how you can add tests to a build used for CI/CD.  The exercises will focus on Azure DevOps Pipelines and Github actions. The way we do it is pretty similar.  We will also look at some of the reporting coming out of this.
 
@@ -62,7 +70,7 @@ In order to make this work, you need to have your test levels (see introduction)
 
 We will then see how this can be used to gate pull requests, and ensure your master branch is clean.
 
-### Section 7: Using metrics to evaluate testing
+### Section 8: Using metrics to evaluate testing
 
 We will look at different metrics for how you can measure the effectiveness of your testing.  This includes code coverage, but there are also more ways to look at this.  Using code coverage also creates challenges regarding what you measure, what should be included and not, so that you get some meaningfullness in your results.
 
