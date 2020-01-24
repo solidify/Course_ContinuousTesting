@@ -1,6 +1,6 @@
-## Solidify Courses:   The UnitTesting Experience
+## Solidify Courses:   The Continuous Testing Experience
 
-This course is a specialized course that will be run by experienced senior developer(s) who have been using unit testing for very long time.
+This course is a specialized course that will be run by experienced senior developer(s) who have been using continuous testing for a very long time.
 
 The course is team based, meaning the participants will be divided into groups that will work together on solving objectives, guided by the trainer(s).  It can be run with between 5 and 20 people.  Anything above 12 people will need 2 trainers.
 
@@ -30,4 +30,4 @@ The cost of finding defects increases exponentially the further out in a develop
 
 There is an old saying "Design for testability" and this is still very true for software development. It is very hard to add automated testing to a non-testable system.  You may be able to do end-to-end tests, but any attempts of moving left will be very costly.  Working with legacy code, and refactoring for testing is an essential skillset to learn.  For new designs, the testing should be present from the start, and using Test Driven Developement (TDD) practices ensures that your code is testable at the unit level at all times.
 
-### Go to the [UnitTesting Experience Agenda](UnitTestingAgenda.md)
+### Go to the [Continuous Testing Experience Agenda](ContinuousTestingAgenda.md)

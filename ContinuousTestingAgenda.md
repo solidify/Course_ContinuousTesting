@@ -1,8 +1,8 @@
-##  UnitTesting Course Agenda
+##  Continuous Testing Course Agenda
 
 ### Section 0:  Introduction
 
-This section covers the overall theory of automated testing, generic and related to both local work and a CI/CD pipeline.
+This section covers the overall theory of automated continuous testing, generic and related to both local work and a CI/CD pipeline.
 
 The first purpose of testing is to improve quality, but the second purpose is to use it to improve code progress and direction.  Tests can also be thought of as documentation, because it can clearly show how to use a particular piece of software.
 Tests have to be easy to run, easy to write and maintain. One also need to strive to make them not overy implementation dependendant. We will look at goals of software testing to ensure a common understanding.
