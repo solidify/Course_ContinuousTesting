@@ -34,6 +34,10 @@ The Single Responsibility Principle comes out very clear when working with TDD. 
 
 Mocking frameworks are very useful when defining the behaviour of your dependencies.  There are also ways like stubbing and faking. We work with when you use what, and the effect of the different methods.  We also look at state versus behaviour testing, and how you can keep your testing code simple.
 
+#### 1d: Static and behaviour testing
+
+There are two ways to check the outcome of a test.  You can check if the state of the obejct under test has changed as expected, or, if the obejct is stateless, you can check the behaviour - that is if the expected execution path was run. 
+
 ### Section 2: Testing legacy code
 
 This can be a huge investment.  It is hard to add testing to existing code.  It may work for the simplest cases, but more often than not, it will require at least some refactoring, but often more drastic measures like rewrites or even redesign.  There are some ways to get at least a certain level of control, and we will work through some of these.  There are also some resolution patterns that can be used.  
